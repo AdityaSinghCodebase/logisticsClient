@@ -1,0 +1,42 @@
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(15, 27, 61, 0.08);
+}
+
+.heading {
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px 8px;
+  border-bottom: 1px solid #eef0f6;
+  font-size: 15px;
+}
+
+.table th {
+  background: #f4f6fb;
+  font-weight: 600;
+}
+
+.badge {
+  background: #fee2e2;
+  color: #dc2626;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.empty {
+  color: #64748b;
+  font-size: 15px;
+}

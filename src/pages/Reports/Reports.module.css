@@ -1,0 +1,129 @@
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(15, 27, 61, 0.08);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.presets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.presetBtn {
+  background: #f4f6fb;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.presetBtn:hover {
+  background: #e3e8f5;
+}
+
+.dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.dateField {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.dateField input {
+  border: 1px solid #d9deea;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px 8px;
+  border-bottom: 1px solid #eef0f6;
+  font-size: 15px;
+  white-space: nowrap;
+}
+
+.table th {
+  background: #f4f6fb;
+  font-weight: 600;
+}
+
+.table tfoot td {
+  font-weight: 700;
+  background: #f4f6fb;
+  border-top: 2px solid #d9deea;
+}
+
+.pos {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.neg {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.zero {
+  color: #64748b;
+  font-weight: 600;
+}
+
+.ok,
+.low {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.ok {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.low {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.empty {
+  text-align: center !important;
+  color: #64748b;
+}
+
+.errorMsg {
+  text-align: center !important;
+  color: #dc2626;
+}

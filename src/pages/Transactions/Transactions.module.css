@@ -1,0 +1,157 @@
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(15, 27, 61, 0.08);
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.tab {
+  background: #f4f6fb;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.activeTab {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d9deea;
+  border-radius: 8px;
+  padding: 0 12px;
+  width: 360px;
+  max-width: 100%;
+  color: #64748b;
+}
+
+.searchBox input {
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px 8px;
+  border-bottom: 1px solid #eef0f6;
+  font-size: 15px;
+}
+
+.table th {
+  background: #f4f6fb;
+  font-weight: 600;
+}
+
+.badgeIn,
+.badgeOut {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.badgeIn {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.badgeOut {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.qtyIn {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.qtyOut {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.empty {
+  text-align: center !important;
+  color: #64748b;
+}
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.dateField {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.dateField input {
+  border: 1px solid #d9deea;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 14px;
+  color: var(--color-text);
+}
+
+.errorMsg {
+  text-align: center !important;
+  color: #dc2626;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.pageControls {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.pageBtn {
+  background: #fff;
+  border: 1px solid #d9deea;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 14px;
+  cursor: pointer;
+  color: var(--color-text);
+}
+
+.pageBtn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,136 @@
+.panel {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(15, 27, 61, 0.08);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.heading {
+  font-size: 20px;
+}
+
+.addBtn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 16px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  text-align: left;
+  padding: 12px 8px;
+  border-bottom: 1px solid #eef0f6;
+  font-size: 15px;
+}
+
+.table th {
+  background: #f4f6fb;
+  font-weight: 600;
+}
+
+.role,
+.status {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.roleAdmin {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.roleIn {
+  background: #dbeafe;
+  color: #2563eb;
+}
+
+.roleOut {
+  background: #ffedd5;
+  color: #ea580c;
+}
+
+.status {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.editBtn,
+.deleteBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.editBtn {
+  color: #2563eb;
+}
+
+.deleteBtn {
+  color: #dc2626;
+}
+
+.searchBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #d9deea;
+  border-radius: 8px;
+  padding: 0 12px;
+  width: 320px;
+  max-width: 100%;
+  color: #64748b;
+}
+
+.searchBox input {
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  width: 100%;
+  font-size: 15px;
+}
+
+.statusOff {
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 13px;
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.you {
+  color: #64748b;
+  font-size: 13px;
+}
+
+.empty {
+  text-align: center !important;
+  color: #64748b;
+}
+
+.errorMsg {
+  text-align: center !important;
+  color: #dc2626;
+}

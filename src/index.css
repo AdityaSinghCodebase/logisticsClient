@@ -1,0 +1,18 @@
+:root {
+  --color-primary: #2563eb;
+  --color-sidebar: #111c44;
+  --color-bg: #f4f6fb;
+  --color-text: #1e293b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
